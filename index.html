@@ -23,30 +23,7 @@
     <section class="foto-destinasi" id="foto-destinasi">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/01-alam.jpg" class="img-fluid" alt="01-greece" width="300" height="400">
-                        <h3 class="judul">Alam</h3>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/02-budaya.jpg" class="img-fluid" alt="01-greece" width="300" height="400">
-                        <h3 class="judul">Budaya</h3>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/03-kuliner.jpg" class="img-fluid" alt="01-greece" width="300" height="400">
-                        <h3 class="judul">Kuliner</h3>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/04-rekreasi.jpg" class="img-fluid" alt="01-greece" width="300" height="400">
-                        <h3 class="judul">Rekreasi</h3>
-                    </a>
-                </div>
+                <div class="row" id="list-category"></div>
             </div>
         </div>
     </section>
@@ -55,29 +32,34 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
     
     <script type="text/javascript">
-        $(document).ready(function () {
-                    $.getJSON("ajax/test.json", function (data) {
-                        var items = [];
-                        $.each(data, function (key, val) {
-                            items.push("<li id='" + key + "'>" + val + "</li>");
-                        });
-
-                        $("<ul/>", {
-                            "class": "my-new-list",
-                            html: items.join("")
-                        }).appendTo("body");
-                    });
+    $(document).ready(function () {
+            let templateCategory = function (category) {
+                return `
+                <div class="col-sm-3">
+                        <img src="${category.image}" alt="" class="img-fluid">
+                        <h3 class="tengah">${category.name}</h3>
+                </div>
+            `
+            }
+            $.getJSON('assets/data.json', function (data) {
+                console.log('success');
+                $.each(data.categories, function (i, category) {
+                    $('#list-category').
+                    append(templateCategory(category))
+                });
+            });
+        });
     </script>
 </body>
 
