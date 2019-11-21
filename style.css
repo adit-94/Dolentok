@@ -1,5 +1,8 @@
+/*css halaman index.html*/
 body {
+    font-family: 'Poppins', sans-serif;
     margin-top: 50px;
+    background-color: #eee;
 }
 
 .navbar-brand {
@@ -8,7 +11,7 @@ body {
     color: #fff;
 }
 
-.banner-text{
+/*.banner-text {
     font-family: 'Berkshire Swash', cursive;
     font-size: 100px;
     position: absolute;
@@ -16,42 +19,146 @@ body {
     top: 35%;
     left: 50%;
     transform: translate(-50%);
+}*/
+
+.box {
+    
+}
+
+.zoom-in {
+    position: relative;
+    opacity: 1;
+    display: block;
+    transition: .3s ease-in-out;
+}
+
+.zoom-in:hover {
+    opacity: 0.7;    
+    transform:scale(1.08);
+    box-shadow: 5px 5px 5px #888;
 }
 
 .judul {
     position: absolute;
     color: #fff;
     top: 45%;
-    left: 38%;
-    /*transform: translate(-50%);*/
-    /*background-color: rgb(0, 0, 0);*/
+    left: 30%;
+    padding: 2px 5px;
+    transform: translateX(-50px);
     background-color: rgba(0, 0, 0,0.7);
 }
 
-h1 {
-    text-align: center;
-    color: rgb(28, 125, 190);
+/*----------Contact Us----------*/
+.contact {
+    height: 470px;
+    padding-top: 30px;
 }
 
-.img-fluid {
-    position: relative;
-    transform: rotate(0deg);
-    opacity: 1;
+.contact-kantor,.contact-data {
+    box-shadow: 5px 5px 5px #888;
+}
+
+.contact-data {
+    width: 400px;
+}
+/*----------Akhir Contact Us----------*/
+
+/*----------Footer----------*/
+.footer {
+    padding-top: 30px;
+    height: 300px;
+    background-color: #666;
+    font-style: normal;
+}
+
+.judul-footer {
+    color: #fff;
+}
+
+.navigasi-footer {
+    padding-left: 0;
+}
+
+.navigasi-footer li {
+    list-style-type: none;
+}
+
+.navigasi-footer li a{
     display: block;
-    transition: .3s ease;
+    color: #212529;
+    margin-bottom: 10px;
 }
 
-.img-fluid:hover {
-    opacity: 0.5;    
-    transform:rotate(10deg);
+.navigasi-footer li a:hover {
+    text-decoration: none;
+}
+/*---------- Akhir Footer----------*/
+/*akhir css halaman index.html*/
+
+
+/*css halaman kategori.html*/
+.title-bromo {
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    color: #fff;
 }
 
-.akomodasi {
-    height: 400px;
-    margin-top: 30px;
+.deskripsi-bromo {
+    position: absolute;
+    top: 500px;
+    left: 27%;
+    color: #fff;
 }
 
-hr {
-    width: 250px;
-    border: 2px solid rgb(117, 117, 117);
+.hr-alam {
+    width: 100%;
+    border: 1px solid  rgba(117, 117, 117,.5);
+}
+
+.wisata-alam {
+    margin-top: 50px;
+}
+
+.judul-alam {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.deskripsi-alam {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/*akhir css halaman kategori.html*/
+
+/*------halaman deskripsi.html------*/
+.header-wisata {
+    position: relative;
+    height: 250px;
+}
+.header-wisata h1 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.header-wisata p {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 30px;
+}
+
+.foto-galeri {
+    background-color: #fff;
+    height: 650px;
+    padding-top: 50px;
+}
+
+.detail {
+    height: 450px;
+    padding: 30px;
 }

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Alam</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">DolenTok</a>
+            </div>
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Destinasi Wisata</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="kategori.html?category=1">Alam</a>
+                        <a class="dropdown-item" href="kategori.html?category=2">Budaya</a>
+                        <a class="dropdown-item" href="kategori.html?category=3">Kuliner</a>
+                        <a class="dropdown-item" href="kategori.html?category=4">Rekreasi</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Akomodasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Travel Guide</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Banner wisata Alam -->
+    <img class="d-block w-100" src="img/05-bromo.jpg" alt="">
+    <h3 class="title-bromo" id="selected-category-name"></h3>
+    <!-- Akhir Banner wisata Alam -->
+
+    <!-- Destinasi Wisata -->
+    <section class="wisata-alam" id="wisata-alam">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="judul-wisata"></h5>
+                    <hr class="hr-alam">
+                </div>
+            </div>
+
+            <div class="row" id="list-items"></div>
+        </div>
+    </section>
+    <!-- Akhir destinasi wisata -->
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="judul-footer">About Dolentok</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="judul-footer">Navigasi</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="judul-footer">Berlangganan</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis laudantium, eveniet
+                        possimus maiores numquam nesciunt debitis corporis iste vitae, atque nisi necessitatibus facilis
+                        explicabo minus. Blanditiis accusantium cupiditate corporis.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <ul class="navigasi-footer">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <a href="#">Destinasi</a>
+                            <a href="#">Akomodasi</a>
+                            <a href="#">Travel Guide</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <p>Jika anda ingin mendapatkan notifikasi email tentang info terbaru yang ada di website kami,
+                        silahkan kirimkan email anda di bawah ini.</p>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="email" class="form control" placeholder="prayuda@gmail.com" size="28">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">Kirim</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; 2019 | Designed oleh Yuda &amp; Adit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        $.urlParam = function (name) {
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                .exec(window.location.search);
+
+            return (results !== null) ? results[1] || 0 : false;
+        }
+
+        $(document).ready(function () {
+            const selectedCategory = $.urlParam('category')
+            
+            let templateItem = function (item) {
+                return ` 
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="${item.image}" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="judul-alam">${item.name}</h4>
+                            <p class="card-text text-justify deskripsi-alam">${item.caption}</p>
+                            <a href="/deskripsi.html?category=${selectedCategory}&item=${item.id}" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                        `
+            }
+
+            $.getJSON('assets/data.json', function (data) {
+                // ambil data category
+                const category = data.categories.find(category => category.id == selectedCategory)
+                $('#selected-category-name').append(category.name)
+
+                // ambil data item
+                const filteredItems = data.items.filter(
+                    item => item.categoryId == selectedCategory
+                )
+                $.each(filteredItems, function (i, category) {
+                    $('#list-items').
+                    append(templateItem(category))
+                })
+            });
+        });
+    </script>
+</body>
+
+</html>
