@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/animate.css">
+    <title>DolenTok</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">DolenTok</a>
+            </div>
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Destinasi Wisata</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="kategori.html?category=1">Alam</a>
+                        <a class="dropdown-item" href="kategori.html?category=2">Budaya</a>
+                        <a class="dropdown-item" href="kategori.html?category=3">Kuliner</a>
+                        <a class="dropdown-item" href="kategori.html?category=4">Rekreasi</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Header Nama wisata -->
+    <section class="header-wisata">
+        <h1 id="header-kategori"></h1>
+        <hr>
+        <p id="header-detail"></p>
+    </section>
+    <!-- Akhir Header Nama wisata -->
+
+    <!-- Foto Galery -->
+    <section class="foto-galeri" id="foto-galeri" style="height: 600px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" id="item-photos"></div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 w-80">
+                    <div class="card" style="box-shadow: 5px 5px 5px #888;">
+                        <div class="card-body">
+                            <h4 class="card-title">Pesan tiket masuk online</h4>
+                            <hr>
+                            <form action="https://formspree.io/xzbbqanb" method="POST">
+                                <div class="form-row">
+                                    <label>Nama</label>
+                                    <input type="text" class="form-control" name="name" id="inputName"
+                                        autocomplete="off" required>
+                                </div>
+                                <div class="form-row">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="_replyto" autocomplete="off"
+                                        required>
+                                </div>
+                                <div class="form-row">
+                                    <label>No. Telepon</label>
+                                    <input type="tel" class="form-control" name="tel" autocomplete="off" required>
+                                </div>
+                                <div class="form-row">
+                                    <label>Kategori</label>
+                                    <div class="custom-control custom-radio">
+                                        <input class="custom-control-input" type="radio" name="kategori"
+                                            id="kategori-dewasa" value="dewasa" required>
+                                        <label class="custom-control-label" for="kategori-dewasa">
+                                            Dewasa
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input class="custom-control-input" type="radio" name="kategori"
+                                            id="kategori-anak" value="anak" required>
+                                        <label class="custom-control-label" for="kategori-anak">
+                                            Anak
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-row mb-3">
+                                    <label>Tanggal Kunjungan</label>
+                                    <input type="date" class="form-control" name="tanggalKunjungan" required>
+                                </div>
+                                <input type="submit" class="btn btn-primary" value="Send"></input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Foto Galery -->
+
+    <!-- Detail -->
+    <section class="detail" id="detail">
+        <div class="container">
+            <div class="row" id="list-details">
+                <div class="col-md-12 text-center">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="deskripsi-tab" data-toggle="tab" href="#deskripsi"
+                                role="tab" aria-controls="deskripsi" aria-selected="true">Deskripsi</a>
+                            <a class="nav-item nav-link" id="lokasi-tab" data-toggle="tab" href="#lokasi" role="tab"
+                                aria-controls="lokasi" aria-selected="false">Alamat</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active text-justify" id="detail-deskripsi" role="tabpanel"></div>
+                        <div class="tab-pane fade text-justify" id="lokasi" role="tabpanel"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Detail -->
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="judul-footer">About Dolentok</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="judul-footer">Navigasi</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="judul-footer">Berlangganan</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis laudantium, eveniet
+                        possimus maiores numquam nesciunt debitis corporis iste vitae, atque nisinecessitatibus facilis
+                        explicabo minus. Blanditiis accusantium cupiditate corporis.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <ul class="navigasi-footer">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <a href="#">Destinasi Wisata</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <p>Jika anda ingin mendapatkan notifikasi email tentang info terbaru yang ada di website kami,
+                        silahkan kirimkan email anda di bawah ini.</p>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="email" class="form control" placeholder="prayuda@gmail.com" size="28">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">Kirim</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; 2019 | Designed oleh Yuda &amp; Adit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        $.urlParam = function (name) {
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                .exec(window.location.search);
+
+            return (results !== null) ? results[1] || 0 : false;
+        }
+
+        const templatePhoto = function (index, photo) {
+            const activeClassName = index === 0 ? "active" : ""
+
+            return `
+                <div class="carousel-item ${activeClassName}">
+                    <img class="d-block w-100" src="${photo.url}" alt="${photo.caption}">
+                </div>
+            `
+        }
+
+        $(document).ready(function () {
+            const selectedCategory = $.urlParam('category')
+            const selectedItems = $.urlParam('item')
+
+            $.getJSON('assets/data.json', function (data) {
+                const category = data.categories.find(category => category.id == selectedCategory)
+                $('.selected-category').append(category.name)
+
+                const item = data.items.find(item => item.id == selectedItems)
+
+                $('#header-kategori').append(category.name)
+                $('#header-detail').append(item.name)
+                $('#detail-deskripsi').append(item.details.deskripsi)
+                $('#lokasi').append(item.details.Lokasi)
+
+                $.each(item.details.photos, function (i, photo) {
+                    $('#item-photos').append(templatePhoto(i, photo))
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

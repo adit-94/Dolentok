@@ -1,6 +1,5 @@
 {
-    "categories": [
-        {
+    "categories": [{
             "id": 1,
             "image": "img/01-alam.jpg",
             "name": "Alam"
@@ -24,6 +23,279 @@
             "name": "Rekreasi"
         }
 
+    ],
+
+    "items": [{
+            "id": 11,
+            "categoryId": 1,
+            "image": "img/1/klayar.jpg",
+            "name": "Pantai Klayar",
+            "caption": "Pantai Klayar Pacitan Jawa Timur merupakan salah satu tempat wisata di Pacitan yang mulai banyak dikenal oleh kalangan wisatawan. Pantai klayar mulai naik namanya dan banyak dituju pengunjung setelah terekspos dalam media sosial dan internet.",
+            "details": {
+                "deskripsi": "Pantai Klayar Pacitan Jawa Timur merupakan salah satu tempat wisata di Pacitan yang mulai banyak dikenal oleh kalangan wisatawan. Pantai klayar mulai naik namanya dan banyak dituju pengunjung setelah terekspos dalam media sosial dan internet. Pantai ini masih termasuk dalam rangkaian pantai selatan, sehingga menawarkan suasana khas pantai selatan seperti ombak besar, pantai pasir putih, dan bentang pantai yang indah. Di pantai klayar, hal ini ditambah lagi dengan bentang alam unik seperti batu karang mirip sphinx",
+                "Lokasi": "Lokasi pantai klayar pacitan terletak di desa Kalak kecamatan Donorojo, kurang lebih 35 KM ke barat kota Pacitan. Perjalanan kesini bisa ditempuh kurang lebih 1 Jam dari kota pacitan. Kondisi jalannya termasuk jalan yang cukup sempit, dengan kondisi rusak dibeberapa bagian. Ditambah dengan rute nya yang berkelok-kelok dan turun-naik.",
+                "photos": [{
+                    "url": "img/1/klayar/1.jpg",
+                    "caption": "Pantai Klayar 1"
+                }, {
+                    "url": "img/1/klayar/2.jpg",
+                    "caption": "Pantai Klayar 2"
+                }, {
+                    "url": "img/1/klayar/3.jpg",
+                    "caption": "Pantai Klayar 3"
+                }]
+            }
+        },
+
+        {
+            "id": 12,
+            "categoryId": 1,
+            "image": "img/1/baluran.jpg",
+            "name": "T.N. Baluran",
+            "caption": "Taman Nasional Baluran Situbondo Jawa Timur merupakan sebuah taman nasional dengan luas area 25.000 hektar.Anda jangan mengira taman nasional ini seperti taman - taman lain yang berupa hutan belantara. Memang pada sebagian wilayahnya, taman baluran menyediakan juga tempat konservasi alam berupa hutan lindung. Tetapi, wilayah utama wisata baluran adalah hamparan padang rumput yang amat luas. Luas savana baluran ini mencapai sepertiga dari luas keseluruhn taman nasional, yaitu 10.000 hektar.Savana baluran ini adalah savana terluas yang dimiliki Pulau Jawa.",
+            "details": {
+                "deskripsi": "Taman Nasional Baluran Situbondo Jawa Timur merupakan sebuah taman nasional dengan luas area 25.000 hektar. Anda jangan mengira taman nasional ini seperti taman - taman lain yang berupa hutan belantara. Memang pada sebagian wilayahnya,taman baluran menyediakan juga tempat konservasi alam berupa hutan lindung. Tetapi, wilayah utama wisata baluran adalah hamparan padang rumput yang amat luas. Luas savana baluran ini mencapai sepertiga dari luas keseluruhn taman nasional, yaitu 10.000 hektar. Savana baluran ini adalah savana terluas yang dimiliki Pulau Jawa. Taman Nasional Baluran Situbondo Jawa Timur merupakan sebuah taman nasional dengan luas area 25.000 hektar. Anda jangan mengira taman nasional ini seperti taman - taman lain yang berupa hutan belantara. Memang pada sebagian wilayahnya, taman baluran menyediakan juga tempat konservasi alam berupa hutan lindung. Tetapi, wilayah utama wisata baluran adalah hamparan padang rumput yang amat luas. Luas savana baluran ini mencapai sepertiga dari luas keseluruhn taman nasional, yaitu 10.000 hektar. Savana baluran ini adalah savana terluas yang dimiliki Pulau Jawa.",
+                "Lokasi": "Letak Taman Nasional Baluran ini masuk di desa wonorejo, kecamatan banyuputih, kabupaten Situbondo, Jawa Timur. Sebenarnya, kawasan baluran ini terletak di perbatasan kabupaten Situbondo dan kabupaten Banyuwangi. ",
+                "photos": [{
+                    "url": "img/1/Baluran/1.jpg",
+                    "caption": "T.N. Baluran 1"
+                }, {
+                    "url": "img/1/Baluran/2.jpg",
+                    "caption": "T.N. Baluran 2"
+                }, {
+                    "url": "img/1/Baluran/3.jpg",
+                    "caption": "T.N. Baluran 3"
+                }]
+            }
+        },
+
+        {
+            "id": 13,
+            "categoryId": 1,
+            "image": "img/1/bromo.jpg",
+            "name": "Gunung Bromo",
+            "caption": "Wisata Gunung Bromo terletak di Jawa Timur ini memang mengundang banyak wisatawan karena keindahan pemandangan alam dari ketinggian pegunungan, nama Gunung Bromo sendiri diambil dari salah satu dewa utama dalam agama Hindu yaitu Brahma, gunung ini memiliki ketinggian 2329 meter di atas permukaan air laut.",
+            "details": {
+                "deskripsi": "Wisata Gunung Bromo terletak di Jawa Timur ini memang mengundang banyak wisatawan karena keindahan pemandangan alam dari ketinggian pegunungan, nama Gunung Bromo sendiri diambil dari salah satu dewa utama dalam agama Hindu yaitu Brahma, gunung ini memiliki ketinggian 2329 meter di atas permukaan air laut. Dari Gunung Bromo kita bisa melihat indahnya matahari terbit dari ketinggian 2.780 meter di atas permukaan air laut dihiasi indahnya hamparan pegunungan seperti negeri di atas awan. Tidak sedikit wisatawan ingin mengabadikan momen indah ini, dari atap penanjakan wisatawan dapat melihat indahnya gunung semeru yang mengeluarkan asap yang dibarengi dengan naiknya matahari memberikan cahaya keindahan di Wisata Gunung Bromo ini.",
+                "Lokasi": "Probolinggo",
+                "photos": [{
+                    "url": "img/1/bromo",
+                    "caption": "Gunung Bromo 1"
+                }, {
+                    "url": "img/1/bromo",
+                    "caption": "Gunung Bromo 2"
+                }, {
+                    "url": "img/1/bromo",
+                    "caption": "Gunung Bromo 3"
+                }]
+            }
+        },
+
+
+        {
+            "id": 21,
+            "categoryId": 2,
+            "image": "img/2/reog.jpg",
+            "name": "Reog Ponorogo",
+            "caption": "adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, ditambah beberapa penari bertopeng dan berkuda lumping.[1] Reog merupakan salah satu seni budaya yang berasal dari Jawa Timur bagian barat-laut dan Ponorogo dianggap sebagai kota asal Reog yang sebenarnya. Gerbang kota Ponorogo dihiasi oleh sosok warok dan gemblak, dua sosok yang ikut tampil pada saat Reog dipertunjukkan. Reog adalah salah satu budaya daerah di Indonesia yang masih sangat kental dengan hal-hal yang berbau mistik dan ilmu kebatinan yang kuat.",
+            "details": {
+                "deskripsi": "adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, ditambah beberapa penari bertopeng dan berkuda lumping.[1] Reog merupakan salah satu seni budaya yang berasal dari Jawa Timur bagian barat-laut dan Ponorogo dianggap sebagai kota asal Reog yang sebenarnya. Gerbang kota Ponorogo dihiasi oleh sosok warok dan gemblak, dua sosok yang ikut tampil pada saat Reog dipertunjukkan. Reog adalah salah satu budaya daerah di Indonesia yang masih sangat kental dengan hal-hal yang berbau mistik dan ilmu kebatinan yang kuat.",
+                "Lokasi": "Ponorogo",
+                "photos": [{
+                    "url": "img/2/",
+                    "caption": "Reog 1"
+                }, {
+                    "url": "img/2/",
+                    "caption": "Reog 2"
+                }, {
+                    "url": "img/2/",
+                    "caption": "Reog 3"
+                }]
+            }
+        },
+
+        {
+            "id": 22,
+            "categoryId": 2,
+            "image": "img/2/kasodo.jpg",
+            "name": "Upacara Kasodo",
+            "caption": "Hari Raya Yadya Kasada adalah sebuah hari upacara sesembahan berupa persembahan sesajen kepada Sang Hyang Widhi. Setiap bulan Kasada hari-14 dalam Penanggalan Jawa diadakan upacara sesembahan atau sesajen untuk Sang Hyang Widhi dan para leluhur, kisah Rara Anteng (Putri Raja Majapahit) dan Jaka Seger (Putra Brahmana) asal mula suku Tengger di ambil dari nama belakang keduanya , pasangan Rara Anteng dan Jaka Seger membangun pemukiman dan kemudian memerintah di kawasan Tengger dengan sebutan Purbowasesa Mangkurat Ing Tengger, yang mempunyai arti “Penguasa Tengger yang Budiman”. Mereka tidak di karunia anak sehingga mereka melakukan semedi atau bertapa kepada Sang Hyang Widhi, tiba-tiba ada suara gaib yang mengatakan bahwa semedi mereka akan terkabul namun dengan syarat bila telah mendapatkan keturunan, anak yang bungsu harus dikorbankan ke kawah Gunung Bromo.",
+            "details": {
+                "deskripsi": "Hari Raya Yadya Kasada adalah sebuah hari upacara sesembahan berupa persembahan sesajen kepada Sang Hyang Widhi. Setiap bulan Kasada hari-14 dalam Penanggalan Jawa diadakan upacara sesembahan atau sesajen untuk Sang Hyang Widhi dan para leluhur, kisah Rara Anteng (Putri Raja Majapahit) dan Jaka Seger (Putra Brahmana) asal mula suku Tengger di ambil dari nama belakang keduanya , pasangan Rara Anteng dan Jaka Seger membangun pemukiman dan kemudian memerintah di kawasan Tengger dengan sebutan Purbowasesa Mangkurat Ing Tengger, yang mempunyai arti “Penguasa Tengger yang Budiman”. Mereka tidak di karunia anak sehingga mereka melakukan semedi atau bertapa kepada Sang Hyang Widhi, tiba-tiba ada suara gaib yang mengatakan bahwa semedi mereka akan terkabul namun dengan syarat bila telah mendapatkan keturunan, anak yang bungsu harus dikorbankan ke kawah Gunung Bromo.",
+                "Lokasi": "Gunung Bromo",
+                "photos": [{
+                    "url": "img/2/",
+                    "caption": "Upacara Kasodo 1"
+                }, {
+                    "url": "img/2/",
+                    "caption": "Upacara Kasodo 2"
+                }, {
+                    "url": "img/2/",
+                    "caption": "Upacara Kasodo 3"
+                }]
+            }
+        },
+
+        {
+            "id": 23,
+            "categoryId": 2,
+            "image": "img/2/remo.jpg",
+            "name": "Tari Remo",
+            "caption": "Tarian ini berasal dari kecamatan Diwek Di desa Ceweng, tarian ini diciptakan oleh orang yang berprofesi sebagai penari jalanan di kala itu, memang banyak profesi tersebut di Jombang, kini Tarian ini pada akhirnya merupakan tarian yang digunakan sebagai pengantar tarian ludruk. Namun, pada awal pertengahanya tarian ini sering ditarikan secara terpisah sebagai sambutan kepulangan atas tamu kedaerahan, ditarikan dalam upacara-upacara kenegaraan, maupun dalam festival kesenian daerah. Tarian ini sebenarnya menceritakan tentang perjuangan seorang pangeran dalam medan laga.Akan tetapi dalam perkembangannya tarian ini menjadi lebih garang ditarikan oleh perempuan, sehingga memunculkan gaya tarian yang lain: Remo Putri atau Tari Remo gaya perempuan dan banci Menurut sejarahnya, tari remo merupakan tari yang khusus dibawakan oleh penari laki– laki.Ini berkaitan dengan lakon yang dibawakan dalam tarian ini.Pertunjukan tari remo umumnya menampilkan kisah pangeran yang berjuang dalam sebuah medan pertempuran.Sehingga sisi kemaskulinan penari sangat dibutuhkan dalam menampilkan tarian ini. ",
+            "details": {
+                "deskripsi": "Tarian ini berasal dari kecamatan Diwek Di desa Ceweng, tarian ini diciptakan oleh orang yang berprofesi sebagai penari jalanan di kala itu, memang banyak profesi tersebut di Jombang, kini Tarian ini pada akhirnya merupakan tarian yang digunakan sebagai pengantar tarian ludruk. Namun, pada awal pertengahanya tarian ini sering ditarikan secara terpisah sebagai sambutan kepulangan atas tamu kedaerahan, ditarikan dalam upacara-upacara kenegaraan, maupun dalam festival kesenian daerah. Tarian ini sebenarnya menceritakan tentang perjuangan seorang pangeran dalam medan laga.Akan tetapi dalam perkembangannya tarian ini menjadi lebih garang ditarikan oleh perempuan, sehingga memunculkan gaya tarian yang lain: Remo Putri atau Tari Remo gaya perempuan dan banci Menurut sejarahnya, tari remo merupakan tari yang khusus dibawakan oleh penari laki– laki.Ini berkaitan dengan lakon yang dibawakan dalam tarian ini.Pertunjukan tari remo umumnya menampilkan kisah pangeran yang berjuang dalam sebuah medan pertempuran.Sehingga sisi kemaskulinan penari sangat dibutuhkan dalam menampilkan tarian ini. ",
+                "Lokasi": "Kabupaten Jombang",
+                "photos": [{
+                    "url": "img/",
+                    "caption": "Tari Remo 1"
+                }, {
+                    "url": "img/",
+                    "caption": "Tari Remo 2"
+                }, {
+                    "url": "img/",
+                    "caption": "Tari Remo 3"
+                }]
+            }
+        },
+
+ 
+        {
+            "id": 31,
+            "categoryId": 3,
+            "image": "img/3/sate.jpg",
+            "name": "Sate Madura",
+            "caption": " sate yang meiliki bumbu khas Madura. Sate Madura biasanya terbuat dari ayam. Madura selain terkenal sebagai pulau garam, juga terkenal dengan satenya. Sate madura sudah terkenal di seluruh Nusantara, Sate Madura dapat ditemukan hampir di semua daerah khususnya di kota besar seperti Medan, Jakarta, Bandung, dan Surabaya. Konon di Madura sendiri sate susah dicari. Tetapi selain ayam sebagai bahan utama sate juga ada yang menggunakan kambing yang ditandai dengan digantungnya bagian kaki belakang si kambing di rombong sang penjual sate.Bumbunya adalah campuran kacang yang ditumbuk halus petis dan sedikit bawang merah.Bumbu kecap juga menjadi salah satu khas dari Pamekasan yang cukup nikmat untuk disantap.Memanggangnya dengan api dari batok kelapa yang dihanguskan terlebih dahulu yang disebut dengan arang batok kelapa.Rasanya gurih tetapi dipantangkan kepada mereka yang berkolesterol tinggi dan yang pengidap asam urat akut.",
+            "details": {
+                "deskripsi": " sate yang meiliki bumbu khas Madura. Sate Madura biasanya terbuat dari ayam. Madura selain terkenal sebagai pulau garam, juga terkenal dengan satenya. Sate madura sudah terkenal di seluruh Nusantara, Sate Madura dapat ditemukan hampir di semua daerah khususnya di kota besar seperti Medan, Jakarta, Bandung, dan Surabaya. Konon di Madura sendiri sate susah dicari.Tetapi selain ayam sebagai bahan utama sate juga ada yang menggunakan kambing yang ditandai dengan digantungnya bagian kaki belakang si kambing di rombong sang penjual sate.Bumbunya adalah campuran kacang yang ditumbuk halus petis dan sedikit bawang merah.Bumbu kecap juga menjadi salah satu khas dari Pamekasan yang cukup nikmat untuk disantap.Memanggangnya dengan api dari batok kelapa yang dihanguskan terlebih dahulu yang disebut dengan arang batok kelapa.Rasanya gurih tetapi dipantangkan kepada mereka yang berkolesterol tinggi dan yang pengidap asam urat akut. ",
+                "Lokasi": "Madura",
+                "photos": [{
+                    "url": "img/",
+                    "caption": "Sate Madura 1"
+                }, {
+                    "url": "img/",
+                    "caption": "Sate Madura 2"
+                }, {
+                    "url": "img/",
+                    "caption": "Sate Madura 3"
+                }]
+            }
+        },
+
+        {
+            "id": 32,
+            "categoryId": 3,
+            "image": "img/3/rawon.jpg",
+            "name": "Rawon",
+            "caption": "Rawon adalah masakan Indonesia berupa sup daging berkuah hitam sebagai campuran bumbu khas yang menggunakan kluwek. Rawon, meskipun dikenal sebagai masakan khas Jawa Timur, dikenal pula oleh masyarakat Jawa Tengah sebelah timur (daerah Surakarta). Daging untuk rawon umumnya adalah daging sapi yang dipotong kecil-kecil, utamanya adalah bagian sandung lamur. Bumbu supnya sangat khas Indonesia, yaitu campuran bawang merah, bawang putih, lengkuas (laos), ketumbar, kemiri, serai, kunir, cabai, kluwek, garam, serta minyak nabati. Semua bahan ini dihaluskan, lalu ditumis sampai harum. Campuran bumbu ini kemudian dimasukkan dalam kaldu rebusan daging bersama-sama dengan daging. Warna gelap khas rawon berasal dari kluwek.",
+            "details": {
+                "deskripsi": "Rawon adalah masakan Indonesia berupa sup daging berkuah hitam sebagai campuran bumbu khas yang menggunakan kluwek. Rawon, meskipun dikenal sebagai masakan khas Jawa Timur, dikenal pula oleh masyarakat Jawa Tengah sebelah timur (daerah Surakarta). Daging untuk rawon umumnya adalah daging sapi yang dipotong kecil-kecil, utamanya adalah bagian sandung lamur. Bumbu supnya sangat khas Indonesia, yaitu campuran bawang merah, bawang putih, lengkuas (laos), ketumbar, kemiri, serai, kunir, cabai, kluwek, garam, serta minyak nabati. Semua bahan ini dihaluskan, lalu ditumis sampai harum. Campuran bumbu ini kemudian dimasukkan dalam kaldu rebusan daging bersama-sama dengan daging. Warna gelap khas rawon berasal dari kluwek.",
+                "Lokasi": "Surabaya",
+                "photos": [{
+                    "url": "img/",
+                    "caption": "Rawon 1"
+                }, {
+                    "url": "img/",
+                    "caption": "Rawon 2"
+                }, {
+                    "url": "img/",
+                    "caption": "Rawon 3"
+                }]
+            }
+        },
+
+        {
+            "id": 33,
+            "categoryId": 3,
+            "image": "img/3/cingur.jpg",
+            "name": "Rujak Cingur",
+            "caption": "Rujak cingur adalah salah satu makanan tradisional yang mudah ditemukan di daerah Jawa Timur, terutama daerah asalnya Surabaya. Dalam bahasa Jawa kata cingur berarti mulut , hal ini merujuk pada bahan irisan mulut atau moncong sapi yang direbus dan dicampurkan ke dalam hidangan. Rujak cingur biasanya terdiri dari irisan beberapa jenis buah seperti timun, kerahi (krai, yaitu sejenis timun khas Jawa Timur), bengkuang, mangga muda, nanas, kedondong, kemudian ditambah lontong, tahu, tempe, bendoyo, cingur, serta sayuran seperti kecambah/taoge, kangkung, dan kacang panjang. Semua bahan tadi dicampur dengan saus atau bumbu yang terbuat dari olahan petis udang, air matang untuk sedikit mengencerkan, gula/gula merah, cabai, kacang tanah yang digoreng, bawang goreng, garam, dan irisan tipis pisang biji hijau yang masih muda (pisang klutuk). Semua saus/bumbu dicampur dengan cara diulek, itu sebabnya rujak cingur juga sering disebut rujak ulek.",
+            "details": {
+                "deskripsi": "Rujak cingur adalah salah satu makanan tradisional yang mudah ditemukan di daerah Jawa Timur, terutama daerah asalnya Surabaya. Dalam bahasa Jawa kata cingur berarti mulut , hal ini merujuk pada bahan irisan mulut atau moncong sapi yang direbus dan dicampurkan ke dalam hidangan. Rujak cingur biasanya terdiri dari irisan beberapa jenis buah seperti timun, kerahi (krai, yaitu sejenis timun khas Jawa Timur), bengkuang, mangga muda, nanas, kedondong, kemudian ditambah lontong, tahu, tempe, bendoyo, cingur, serta sayuran seperti kecambah/taoge, kangkung, dan kacang panjang. Semua bahan tadi dicampur dengan saus atau bumbu yang terbuat dari olahan petis udang, air matang untuk sedikit mengencerkan, gula/gula merah, cabai, kacang tanah yang digoreng, bawang goreng, garam, dan irisan tipis pisang biji hijau yang masih muda (pisang klutuk). Semua saus/bumbu dicampur dengan cara diulek, itu sebabnya rujak cingur juga sering disebut rujak ulek.",
+                "Lokasi": "Surabaya",
+                "photos": [{
+                    "url": "img/",
+                    "caption": "Rujak CIngur 1"
+                }, {
+                    "url": "img/",
+                    "caption": "Rujak Cingur 2"
+                }, {
+                    "url": "img/",
+                    "caption": "Rujak Cingur 3"
+                }]
+            }
+            },
+
+
+
+            {
+                "id": 41,
+                "categoryId": 4,
+                "image": "img/4/jtp.jpg",
+                "name": "Jawa Timur Park",
+                "caption": "Jatim Park adalah sebuah tempat rekreasi dan taman belajar yang terdapat di Kota Batu, Jawa Timur. Objek wisata ini berada sekitar 20 km barat Kota Malang, dan kini menjadi salah satu icon wisata Jawa Timur. Objek wisata ini memiliki 36 wahana, di antaranya kolam renang raksasa (dengan latar belakang patung Ken Dedes, Ken Arok, dan Mpu Gandring), spinning coaster, dan drop zone. Wahana pendidikan yang menjadi pusat perhatian di antaranya adalah Volcano dan Galeri Nusantara yang juga terdapat tanaman agro, diorama binatang langka, dan miniatur candi-candi.",
+                "details": {
+                    "deskripsi": "Jatim Park adalah sebuah tempat rekreasi dan taman belajar yang terdapat di Kota Batu, Jawa Timur. Objek wisata ini berada sekitar 20 km barat Kota Malang, dan kini menjadi salah satu icon wisata Jawa Timur. Objek wisata ini memiliki 36 wahana, di antaranya kolam renang raksasa (dengan latar belakang patung Ken Dedes, Ken Arok, dan Mpu Gandring), spinning coaster, dan drop zone. Wahana pendidikan yang menjadi pusat perhatian di antaranya adalah Volcano dan Galeri Nusantara yang juga terdapat tanaman agro, diorama binatang langka, dan miniatur candi-candi.",
+                    "Lokasi": "Batu Malang",
+                    "photos": [{
+                        "url": "img/",
+                        "caption": "Jawa Timur Park 1"
+                    }, {
+                        "url": "img/",
+                        "caption": "Jawa Timur Park 2"
+                    }, {
+                        "url": "img/",
+                        "caption": "Jawa Timur Park 3"
+                    }]
+                }
+            },
+
+        
+            
+        {
+            "id": 42,
+            "categoryId": 4,
+            "image": "img/4/museum.jpg",
+            "name": "Museum Angkut",
+            "caption": "Museum Angkut merupakan museum transportasi dan tempat wisata modern yang terletak di Kota Batu, Jawa Timur,[1] sekitar 20 km dari Kota Malang. Museum ini terletak di kawasan seluas 3,8 hektar di lereng Gunung Panderman[2] dan memiliki lebih dari 300 koleksi jenis angkutan tradisional hingga modern[3]. Museum ini terbagi dalam beberapa zona yang didekorasi dengan setting landscape model bangunan dari benua Asia, Eropa hingga Amerika[1]. Di Zona Sunda Kelapa dan Batavia yang merupakan Replika Pelabuhan Sunda Kelapa, dihiasi oleh beberapa alat transportasi kuno seperti becak dan miniatur kapal. Zona Eropa juga di setting seakan-akan berada di jalanan kota-kota di Prancis dengan mobil-mobil kuno eropa.",
+            "details": {
+                "deskripsi": "Museum Angkut merupakan museum transportasi dan tempat wisata modern yang terletak di Kota Batu, Jawa Timur,[1] sekitar 20 km dari Kota Malang. Museum ini terletak di kawasan seluas 3,8 hektar di lereng Gunung Panderman[2] dan memiliki lebih dari 300 koleksi jenis angkutan tradisional hingga modern[3]. Museum ini terbagi dalam beberapa zona yang didekorasi dengan setting landscape model bangunan dari benua Asia, Eropa hingga Amerika[1]. Di Zona Sunda Kelapa dan Batavia yang merupakan Replika Pelabuhan Sunda Kelapa, dihiasi oleh beberapa alat transportasi kuno seperti becak dan miniatur kapal. Zona Eropa juga di setting seakan-akan berada di jalanan kota-kota di Prancis dengan mobil-mobil kuno eropa.",
+                "Lokasi": "Batu Malang",
+                "photos": [{
+                    "url": "img/4/",
+                    "caption": "Museum Angkut 1"
+                }, {
+                    "url": "img/",
+                    "caption": "Museum Angkut 2"
+                }, {
+                    "url": "img/",
+                    "caption": "Museum Angkut 3"
+                }]
+            }
+        },
+
+        {
+            "id": 43,
+            "categoryId": 4,
+            "image": "img/4/selecta.jpg",
+            "name": "Selecta",
+            "caption": "Selecta Malang merupakan destinasi wisata favorit di kota Batu Malang. Hal ini tidak luput dari tingginya peminat pengunjung hendak menikmati panorama kebun bunga serta wahana Selecta Malang. Ketenaran wisata ini sudah terkenal hingga seluruh penjuru nusantara, terlihat tinggi nya antusias para pengunjung setiap hari terutama ketika tiba akhir pekan dan libur panjang.",
+            "details": {
+                "deskripsi": "Selecta Malang merupakan destinasi wisata favorit di kota Batu Malang. Hal ini tidak luput dari tingginya peminat pengunjung hendak menikmati panorama kebun bunga serta wahana Selecta Malang. Ketenaran wisata ini sudah terkenal hingga seluruh penjuru nusantara, terlihat tinggi nya antusias para pengunjung setiap hari terutama ketika tiba akhir pekan dan libur panjang.",
+                "Lokasi": "Batu Malang",
+                "photos": [{
+                    "url": "img/",
+                    "caption": "Selecta 1"
+                }, {
+                    "url": "img/",
+                    "caption": "Selecta 2"
+                }, {
+                    "url": "img/",
+                    "caption": "Selecta 3"
+                }]
+            }
+        
+        }
     ]
+
 
 }

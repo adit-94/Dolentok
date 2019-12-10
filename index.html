@@ -11,7 +11,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
-    <link rel="stylesheet" style="text/css" href="assets/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/animate.css">
     <title>DolenTok</title>
 </head>
 
@@ -20,7 +21,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="" class="navbar-brand">DolenTok</a>
+                <a href="index.html" class="navbar-brand">DolenTok</a>
             </div>
 
             <ul class="nav justify-content-center">
@@ -28,17 +29,17 @@
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">Destinasi Wisata</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Alam</a>
-                        <a class="dropdown-item" href="#">Budaya</a>
-                        <a class="dropdown-item" href="#">Kuliner</a>
-                        <a class="dropdown-item" href="#">Rekreasi</a>
+                        <a class="dropdown-item" href="kategori.html?category=1">Alam</a>
+                        <a class="dropdown-item" href="kategori.html?category=2">Budaya</a>
+                        <a class="dropdown-item" href="kategori.html?category=3">Kuliner</a>
+                        <a class="dropdown-item" href="kategori.html?category=4">Rekreasi</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Akomodasi</a>
+                    <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Travel Guide</a>
+                    <a class="nav-link" href="#">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -46,7 +47,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Banner -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mb-3 w-100" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -55,12 +56,24 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="img/01-banner.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Labuan Bajo</h3>
+                    <p><em>"Merupakan nama sebuah pelabuhan kecil yang terletak di Nusa Tenggara Timur"</em><p>
+                </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/02-banner.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Melasti</h3>
+                    <p><em>"Tradisi yang ada sejak Kerajaan Hindu Majapahit ini merupakan rangkaian dari perayaan Hari Raya Nyepi di Bali"</em></p>
+                </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/03-banner.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Sate Ayam</h3>
+                    <p><em>"Merupakan nama makanan khas Indonesia. Sate ini biasanya disajikan bersama dengan lontong atau nasi"</em></p>
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,49 +87,137 @@
     </div>
     <!-- Akhir Banner -->
 
-    <!-- Foto Destinasi -->
-    <section class="foto-destinasi mt-4" id="foto-destinasi">
+    <!-- Content -->
+    <div class="container" style="height: 400px;">
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <h1 style="text-shadow: 2px 2px 2px #888;">Pilih Destinasi Wisata Anda</h1>
+            </div>
+        </div>
+        
+        <div class="row" id="list-category"></div>
+    </div>
+    <!-- Akhir Content -->
+
+    <!-- About Us -->
+    <!-- Akhir About Us -->
+
+    <!-- Contact Us -->
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/01-alam.jpg" class="img-fluid animated bounceInUp" alt="alam" width="300"
-                            height="400">
-                        <h3 class="judul animated bounceInUp">Alam</h3>
-                    </a>
+                <div class="col-md-12 text-center">
+                    <h1 style="text-shadow: 2px 2px 2px #888;">Contact Us</h1>
                 </div>
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/02-budaya.jpg" class="img-fluid animated bounceInUp" alt="budaya" width="300"
-                            height="400">
-                        <h3 class="judul animated bounceInUp">Budaya</h3>
-                    </a>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 offset-md-3">
+                    <div class="card contact-kantor">
+                        <div class="card-body">
+                            <h5 class="card-title judul-contact">Kantor Kami</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item text-left">Subco Spazio Co-Working</li>
+                                <li class="list-group-item">Jalan Mayjen Yono Suwoyo kav 3, Spazio 1st Floor</li>
+                                <li class="list-group-item">Pradahkalikendal, Kec. Dukuhpakis, Kota Surabaya</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="col-md-3">
-                    <a href="">
-                        <img src="img/03-kuliner.jpg" class="img-fluid animated bounceInUp" alt="kuliner" width="300"
-                            height="400">
-                        <h3 class="judul animated bounceInUp">Kuliner</h3>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="">
-                        <img src="img/04-rekreasi.jpg" class="img-fluid animated bounceInUp" alt="01-rekreasi"
-                            width="300" height="400">
-                        <h3 class="judul animated bounceInUp">Rekreasi</h3>
-                    </a>
+                    <div class="card contact-data">
+                        <div class="card-body">
+                            <h5 class="card-title">Masukkan data anda</h5>
+                            <form action="https://formspree.io/xeqqvvyl" method="POST" class="need-validation was-validate" novalidate>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" id="inputName"
+                                        placeholder="Nama" autocomplete="off" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="_replyto" id="inputEmail"
+                                        placeholder="Email" autocomplete="off" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="tel" id="inputTel"
+                                        placeholder="No. Telepon" autocomplete="off" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="InputMessage"
+                                        placeholder="Masukkan Pesan" required></textarea>
+                                </div>
+                                <input type="submit" class="btn btn-primary" value="Send"></input>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Akhir Foto Destinasi -->
+    <!-- Akhir Contact Us -->
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="judul-footer">About Dolentok</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="judul-footer">Navigasi</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="judul-footer">Berlangganan</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis laudantium, eveniet
+                    possimus maiores numquam nesciunt debitis corporis iste vitae, atque nisinecessitatibus facilis
+                    explicabo minus. Blanditiis accusantium cupiditate corporis.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <ul class="navigasi-footer">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <a href="#">Destinasi Wisata</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <p>Jika anda ingin mendapatkan notifikasi email tentang info terbaru yang ada di website kami, silahkan kirimkan email anda di bawah ini.</p>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="email" class="form control" placeholder="prayuda@gmail.com" size="28">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">Kirim</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; 2019 | Designed oleh Yuda &amp; Adit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -126,29 +227,27 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-                    let templateCategory = function (category) {
-                        return '<div class="col-md-3"> <
-                            a href = "" >
-                            <
-                            img src = "$(category.image)"
-                        alt = ""
-                        class "image"
-                        width = "300"
-                        height = "400" >
-                            <
-                            h3 class = "judul" > Alam < /h3> <
-                            /a> <
-                            /div>'
-                    }
-                }
-                $(document).ready(function () {
-                        $.getJSON("data.json", function (data) {
-                            console.log('success');
-                            $.each(data.categories
-                                function (i, categories) {
-                                    $('#list-category').append(templateCategory(category))
-                                });
-                        });
+            let templateCategory = function (category) {
+                return ` 
+                        <div class="col-sm-3">
+                            <div class="box">
+                                <a href="/kategori.html?category=${category.id}">
+                                    <img src="${category.image}" alt ="alam" class="zoom-in" width="250" height="250">
+                                    <h3 class="judul">${category.name}</h3>
+                                </a>
+                            </div>
+                        </div>
+                        `
+            }
+
+            $.getJSON('assets/data.json', function (data) {
+                console.log('success');
+                $.each(data.categories, function (i, category) {
+                    $('#list-category').
+                    append(templateCategory(category))
+                });
+            });
+        });
     </script>
 </body>
 
